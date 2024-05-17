@@ -1,0 +1,25 @@
+body {
+  background-color: aqua;
+  color: black;
+}
+.img-container {
+  width: 150px;
+  height: 150px;
+}
+.xyz{
+  border-radius: 5px;
+  background-color: aliceblue;
+  padding: 5px;
+  text-align: center;
+}
+.container {
+  display: flex;
+  padding: 5px 0px;
+  gap: 2vw;
+  border-radius: 8px;
+  background-color: #333000;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-around;
+  /* overflow: hidden; */
+}
