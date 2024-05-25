@@ -5,7 +5,7 @@ function Login() {
   const [username, setUsername] = useState('')
   const [password, setPassword] = useState('')
 
-  const {setUser} = useContext(UserContext)  //setUser is from UserContextProvider m define h
+  const {setUser} = useContext(UserContext)  //setUser is from UserContextProvider m define h, yha value le rhe hai hum log
 
   const handleSubmit = (e) => {
       e.preventDefault()
